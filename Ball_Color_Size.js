@@ -23,9 +23,9 @@ function draw() {
   //slow down random color generation rate  
   //https://stackoverflow.com/questions/51107790/how-can-i-slow-down-the-random-generation-rate
   if(frameCount % 12 == 0){
-    ballYColorR = random(255);
-    ballYColorG = random(255);
-    ballYColorB = random(255);
+    ballYColorR = random(175);
+    ballYColorG = random(175);
+    ballYColorB = random(175);
   }
   
   fill(ballYColorR,ballYColorG,ballYColorB);
